@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile.html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Aguafina+Script' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body >
+		<header>
+			
+				<div class="logos">
+					<a href="index.html"><img src="images/logo.png" /></a>
+				</div>
+				
+		</header>
+		<section>
+				<div class= "first-lastName-colors-div">
+						<div class="first-lastName-div"><h1 id="first-lastName" ></h1></div>
+						<div class="colors-div">
+								<span  ><img id="themecolors" src ="images\pallete-sm.png" style="width:30px;height:25px; display: inline-block;cursor:pointer" /></span>
+					
+								<span class="colors"  data="blue" style="background: blue; width: 30px; height: 30px; display: inline-block; cursor:pointer" ></span>
+								<span class="colors" data="lightgrey" style="background: lightgray; width: 30px; height: 30px; display: inline-block; cursor:pointer"></span>
+								<span class="colors" data="cyan" style="background: cyan; width: 30px; height: 30px; display: inline-block;cursor:pointer"></span>
+								<span class="colors" data="red" style="background: red; width: 30px; height: 30px; display: inline-block;cursor:pointer"></span>
+								<span class="colors" data="white" style="background: white; width: 30px; height: 30px; display: inline-block;cursor:pointer"></span>
+								<span class="colors" data="lightpink" style="background: lightpink; width: 30px; height: 30px; display: inline-block;cursor:pointer"></span>
+						</div> 
+						
+				</div>
+				
+		</section>
+		<div classd="clear"></div>
+	<div id = "profilepage">		
+	 
+		
+		 <div class="profile-pic-div">
+				<div class="profile-pic-div-inside" >
+
+					 
+						<img id="profile-image" src="images/profile-sm.jpg" style="cursor:pointer">
+						<input type="file" id="fileElem" multiple accept="image/*" style="display:none" >
+						<label  id="upload" for="fileElem">Upload</label>
+											
+				</div>				
+				<div class="picProfile-div-headers">						
+					<h4>CONTACT INFORMATION</h4>
+					<h4>GENERAL INFORMATION</h4>
+					<h4>FAVORITE FOODS</h4>
+				</div>			
+		 </div>
+		 
+		<div class="profile-info">
+				<h4>Contact Information</h4>
+			<div  class ="profile-fields">
+				<label>Email:</label>
+				<input class="data" data="email" type="email" id="email"placeholder="Email" >
+			</div>
+			<div class ="profile-fields">
+				<label>Address:</label>
+				<input class="data" type= "text" id="address1" placeholder="Street address 1" >
+				<input class="data"  type= "text"  id="address2" placeholder="Street address 2" >
+				<input class="data" type= "text" id="city" placeholder="City" >
+				<input class="data"  type= "text" id="state" placeholder="State" >
+				<input class="data"  type= "number" id="zipcode" placeholder="zipcode" >
+			</div>
+			
+		</div>
+		<div class="profile-info">
+			<h4>GENERAL INFORMATION</h4>
+			<div class ="profile-fields"> 
+				<label>Age:</label>
+				<input class="data"  id="age" type="number" >    
+			</div>
+			<div class ="profile-fields">
+					<label> Phone Number:</label>
+					<input class="data"  id="phone"type="number" >     
+			</div>
+		</div>
+		<div class="profile-info">
+			<h4>PAYMENT INFORMATION</h4>
+			<div class ="profile-fields">
+				<label>Credit Card:</label>
+				<input type="number" placeholder="****">
+			</div>
+		</div>
+	
+		<div class="profile-info">
+			<h4>FAVORITE FOODS:</h4>
+			<div >
+				<div>
+					<div class ="favorite-foods">
+						<img src="images/chinese-food-icon.png" data="chinese"/>
+						<label for="chinese">Chinese</label>
+					</div>
+					<div class ="favorite-foods">
+							<img src="images/pizza-icon.png" data="pizza"/>
+							<label for="pizza">Pizza</label>
+					</div>
+					<div class ="favorite-foods">
+							<img src="images/american-food-icon.png" data="american"/>
+							<label for="american">american</label>
+					</div>
+					<div class ="favorite-foods">
+							<img src="images/cocktail-icon.png" data+="cocktail">
+							<label for="cocktail">Martinis</label>
+					</div>
+					<div class ="favorite-foods">
+							<img src="images/breakfast-icon.png" data = "breakfast"/>
+							<label for="breakfast">breakfast</label>
+				    </div>
+				</div>
+			</div>
+		</div>
+		   <div class="profile-info">
+				<h4>MOST RECENT SEARCH</h4>
+				<div class ="profile-fields">
+					<p>Recipe information to go here.</p>
+				</div>
+			</div>
+
+			
+    
+</div>
+<footer>
+	<div class="container">
+		<div  id="sitemap" class="sitemap">
+			<div class="foot-title">
+				<h3>Site Map</h3>
+			</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="about.html">How it All Works</a></li>
+			</ul>
+		</div>
+		<div  class="sitemap" class="foot-menu">
+			<div class="foot-title">
+				<h3>Legal</h3>
+			</div>
+			<ul>
+				<li>Privacy Policy</li>
+				<li>Terms & Conditions</li>
+			</ul>
+		</div>
+		<div  class="sitemap" >
+			<div class="foot-title">
+				<h3>Food is Life :)</h3>
+			</div>
+		</div>
+	   <div class="clear"></div>
+	</div>
+
+	<section class="copy"><p>&copy; 2018. All rights reserved. </p></section>
+</footer>
+	
+	<script src="js/profile.js"></script>
+</body>
+</html>    

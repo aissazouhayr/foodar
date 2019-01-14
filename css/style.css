@@ -1,0 +1,1446 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: 'Droid Serif', serif;
+	font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+	height: 100%;
+}
+
+section {
+	color: #000;
+}
+
+section.container {
+	min-height: 100%;
+}
+
+footer {
+	padding: 3em;
+    background: #202020;
+	color: white;
+}
+
+footer article {
+	color: white;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+header {
+	positiond: relative;
+    width: 100%;
+    height: 80px;
+    background: rgba(255, 255, 255,0.25);
+}
+
+a input{cursor: pointer;}
+
+a, input, button {
+
+  outline: none;
+}
+
+#feature-image-div {
+	width: 100%;
+  height: 100%;
+   background-imageh: url("../images/03.jpg"); 
+	background-size: cover;
+  positionf: relative;
+  marging: 0px 0px 40px 0px;
+}
+
+#feature-image img {
+	width: 100%;
+  height: 100%;
+ 
+}
+
+#feature-image h1 {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 55%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40pt;
+    padding: 2em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.width-60 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.underline {
+	height: 3px;
+  background: #eaeaea;
+ 
+}
+
+.logos{
+	width:20%;
+	float: left;
+}
+.menu{
+	width:25%;
+	float: right;
+}
+
+.menu ul{
+	margin: 24px 10px;
+}
+
+.menu ul li {
+	list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.heading{
+	text-align: center;
+}
+
+
+.heading-text{
+	font-family: 'Aguafina Script', cursive;
+	color: #ccad52;
+	font-size: 50px;
+    letter-spacing: 9px;
+    margin-top: 40px;
+    margin-bottom: 20px;  
+    line-height: 36px;  
+}
+
+.clear{
+	clear: both;
+}
+
+.card-container {
+  height:368px;
+  perspective: 600;
+  position: relative;
+  width: 30%;
+  float: left;
+  margin: 19px;
+  cursor: pointer;
+}
+
+.back p {
+	padding: 100px 30px 10px 30px;
+    text-align: center;
+}
+
+.menu-title{
+	text-align:center;color:#000;
+}
+
+.fd-menu {
+	margin-top: 20px;
+	
+}
+
+.men {
+	width: 100%;
+	float: left;
+	border-radius: 50%;
+
+}
+ .men .side img{
+	width: 100%;
+	border:2px solid #c33a03;
+	border-radius: 50%;
+}
+
+#about .center{
+    position: relative;
+    top: 2em;
+    font-size: 36pt;
+    font-weight: 800;
+}
+
+#home {
+	background: url("../images/road-traffic-car-business.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	color: white;
+}
+
+#request-form {
+	  padding: 2em;
+    border-radius: 5px;
+}
+
+#sitemap {
+  margin-right: 3px;
+}
+
+ul {
+	list-style: none;
+}
+
+#sitemap ul li, #sitemap a {
+	text-decoration: none;
+	color: white;
+}
+
+#sitemap a:hover {
+	color: #F7A700;
+}
+
+.inp-grp{
+  width:290px;margin:0 auto;
+}
+
+.inp-wd{
+  width: 217px;
+}
+
+#yourCity input {
+    padding: 9px;
+    font-size: 14pt;
+    color: #00006B;
+	border: 2px solid #D69000;
+}
+#yourCity p {
+  text-align: center;
+}
+#yourCity input[type="submit"] {
+    background: #f7a700;
+    border: 2px solid #D08C00;
+    position: relative;
+    color: white;
+    font-family: 'PT Sans', sans sans-serif;
+	cursor: pointer;
+}
+
+.how-in-img {
+  width:33%;
+  float:left;
+}
+.how-in-img img {
+  height:350px;
+}
+.how-in-txt{
+  width:50%;float:left;
+}
+
+.float-wrapper {
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.restaurant {
+	float: left;
+	width: 33%;
+	padding: 1em;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.restaurant img {
+	border-radius: 2em;
+}
+
+.sitemap {
+  width:33%;
+  float:left;
+}
+
+.sitemap ul {
+  margin:40px 30px 30px 0px;
+  padding:0px;
+}
+.sitemap ul li {
+  margin: 10px 0px;
+}
+
+.foot-menu {
+  width:33%;
+  float:left;
+}
+
+.foot-menu ul {
+  margin:40px 30px 30px 0px;
+  padding:0px;
+}
+.foot-menu ul li {
+  margin: 10px 0px;
+}
+
+.copy{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.foot-title h3{
+  color: #fff;
+  text-shadow:none;
+
+}
+.foot-title:after{
+  content: "";
+    position: absolute;
+   
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #eaeaea;
+}
+.news{
+  margin: 40px 0px;
+    color: #fff;
+}
+.news-inp {
+  height: 30px;
+    padding-left: 5px;
+    border: 2px solid #5D5D5D;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+.news-btn{
+  height: 37px;
+    border: 1px solid #383838;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+     margin-top: 10px;
+}
+
+.findus{
+  background: url("../images/bg-aboutus.jpg");
+  background-attachment: fixed;
+  color:#fff;
+  margin-bottom: 50px;
+  text-shadow: 1px 0 0 black;
+}
+
+.findus h3 {
+  text-align: center;
+  text-shadow: 1px 0 0 black;
+}
+
+.bold-sp{
+  color: #000;
+  font-weight: bold;
+}
+.mild-sp{
+  color: #787878;
+}
+.read-btn{
+	background-color: #000;
+    color: #fff;
+    padding: 17px 25px;
+    border-radius: 6px;
+    border: none;
+    text-decoration: none;
+    position: relative;
+    top: 1em;
+}
+
+.read-btn:hover{
+  background-color: #ccad52;
+  color:#fff;
+}
+
+
+.rs-on{
+  width:32%;background:#E2E2E2;margin: 150px 5px;float:left;min-height: 363px;
+}
+.rs-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto ;
+    display: block;
+    
+}
+.rs-img img {
+  margin-top:-100px;
+  border-radius: 50%;
+  border: 1px solid #CCAD52;
+}
+
+
+.how1 {
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+}
+
+.how1 p{
+  color: #565656;
+}
+
+.form-group {
+	margin: 2em 0 0;
+}
+
+.form-group input {
+	display: block;
+    margin: 0.3em;
+    padding: 0.4em;
+    font-size: 14pt;
+}
+
+.center {
+	text-align: center;
+}
+
+.green {
+	color: green;
+}
+
+.logo {
+	font-size: 34pt;
+}
+
+.promo-banner {
+	color: white;
+	font-size: 11pt;
+	line-height: 20px;
+	padding: 1em 0;
+	width: 100%;
+	z-index: 15;
+	text-align: center;
+	font-weight: 800;
+	background: #3A4A48;
+}
+
+.logo {
+	position: absolute;
+	left: 100px;
+}
+
+.nav {
+	position: absolute;
+	right: 100px;
+}
+
+.r-input{
+  width:47%;
+  float: left;
+  padding: 15px;
+}
+
+.r-input input{
+  width:90%;
+  padding:20px;
+  font-size: 14px;
+  background: #f3f3f3;
+  border:1px solid #f3f3f3;
+  border-radius: 6px;
+}
+
+.rinp-btn{
+  background-color: #000;
+  color:#fff;
+  padding: 14px 25px !important;
+    border-radius: 6px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-left: 20px !important;
+}
+.rinp-btn:hover{
+  background-color: #ccad52;
+  color:#fff;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #E8FF00;
+}
+
+.nav a:hover {
+	color: #F7A700;
+}
+
+.nav div {
+	display: inline-block;
+}
+
+.nav ul {
+	list-style: none;
+	display: inline-block;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.left {
+
+}
+
+.red {
+	color: red;
+}
+
+.right {
+    position: relative;
+    left: 75%;
+    display: block;
+    width: 25%;
+}
+
+.radio-collection input[type="radio"] {
+	width: 25px;
+    height: 25px;
+    text-align: center;
+    margin: 1em auto 0;
+}
+
+.radio-group {
+	
+    background: #CCAD52;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    vertical-align: top;
+    text-align: center;
+    width: 250px;
+    height: 138px;
+    margin-bottom: 10px;
+    font-size: 18pt;
+    border-radius: 20px;
+}
+
+.small {
+	font-size: 9pt;
+}
+
+.total {
+	padding: 3em;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.wrapper {
+	min-height: 240px;
+	padding: 3em;
+}
+
+
+/* ------------- General ------------- */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@font-face {
+	font-family: "cs-ctrl-basic";
+	src: url("cs-ctrl-basic.eot");
+	src: url("cs-ctrl-basic.eot#iefix") format("embedded-opentype"),
+			url("cs-ctrl-basic.woff") format("woff"),
+			url("cs-ctrl-basic.ttf") format("truetype"),
+			url("cs-ctrl-basic.svg#basic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.radio-group {
+    
+    margin-bottom: 10px;
+    
+}
+
+footer {
+    padding: 10px;
+    background: #202020;
+    color: white;
+}
+.card-container {
+    height: 368px;
+    perspective: 600;
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 15px;
+    cursor: pointer;
+}
+.how-in-img {
+    width: 34%;
+    float: left;
+    margin-right: 10px;
+}
+.how-in-txt {
+    width: 63%;
+    float: left;
+}
+.r-input {
+    width: 45%;
+    float: left;
+    padding: 15px;
+}
+.radio-group {
+    
+    width: 226px;
+    
+}
+.csslider1 > .cs_play_pause {
+    position: absolute;
+    top: 41%;
+    left: 15%;
+    z-index: 5;
+}
+
+/*###############################################################################################################*/
+
+/*   My modifications*/
+/*login banner*/
+.form-group input{
+  display:inline-block;
+  background-color: rgb(238, 231, 231);
+  color:black;
+  border:0px solid rgb(245, 231, 191);
+  font-size: 1em;
+  padding:10px;
+}
+.new{
+  background: yellow;
+  padding:4px;
+  border-radius: 12em;
+}
+
+.menu ul li a{
+  background: #f3eeee;
+  padding:4px;
+  border-radius:3px;
+  transition-property: border-radius;
+    -webkit-transition-property: border-radius;
+    -moz-transition-property: border-radius;
+    -o-transition-property: border-radius;
+
+  transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration:0.3s 
+
+}
+.menu ul li a:hover{
+  background: #f5c5c5;
+  border-radius: 23px;
+  transition-property: border-radius;
+    -webkit-transition-property: border-radius;
+    -moz-transition-property: border-radius;
+    -o-transition-property: border-radius;
+
+  transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration:0.3s 
+}
+
+/*footer*/
+footer{
+  background-color: black;
+  color:white;
+  font-size: 1em;
+}
+.footer-container{
+  display:inline-block;
+  width:100%;
+
+  padding:20px auto;
+  
+}
+.sitemap{
+  width:30%;
+  display: block;
+  float:left;
+  
+  padding:20px ;
+}
+.legal{
+  width:30%;
+  
+  display: block;
+  float:left;
+  padding:20px ;
+}
+.Foodislife{
+  width:30%;
+  display: block;
+  float:left;
+  padding:20px ;
+  
+}
+.Foodislife-title,.sitemap-title,.legal-title{
+  margin-left:40px;
+}
+ul,ul  a{
+  list-style: none;
+  text-decoration-line:none; 
+  
+ 
+}  
+li.footer-nav-menu a{
+  margin-top:20px;
+  color:white;
+}
+li.footer-nav-menu a:hover{
+  color:#ccad52;
+}
+li.footer-nav-menu a:active{
+  color:red;
+}
+
+
+
+.COPYRIGHTS{
+  text-align:center;
+  padding:30px;
+}
+
+/* profile.html*/
+body #profilepage{
+  background-color: white;
+  padding:10px;
+}
+
+#first-lastName{
+  width: 200px;
+  margin-left:70px;
+  display:inline-block;
+}
+
+.Name-theme-div {
+  display:inline-block;
+  
+}
+
+
+.profile-info{
+  background-color: white;
+
+  padding:10px 10px;
+  margin:30px 0px;
+  border-radius: 15px;
+  max-width: 750px;
+  display:block;
+  
+}
+
+.profile-pic-div{
+  width:100%;
+  
+  border-left:1px solid black;
+  display:inline-block;
+
+}
+
+.profileIMGheaders{
+  padding-left:100px;
+ 
+
+}
+.profile-pic-div img{
+  border-radius: 10em;
+  padding-top:20px;
+ box-shadow: #c6dafc;
+ marging:10px 120px;
+
+  
+}
+.profile-pic-div img:hover{
+     
+      opacity:0.6;
+     
+}
+.profile-pic-div-inside label{
+  
+  position:absolute; 
+  left:40%; 
+  top:50%;
+  cursor:pointer; 
+  background-color: grey;
+  color:black;
+  opacity:0;
+  border-radius:4px;
+  width:70px;
+  height:30px;
+  padding:3px;
+  text-align: center;
+}
+.profile-pic-div label:hover{
+  
+  opacity:1;
+}
+.picProfile-div-headers{
+  padding-left:10px;
+  text-align: center;
+}
+.profile-fields label {
+     display:block;
+}
+.profile-fields input{
+  padding:10px;
+  min-width:220px;
+ 
+}
+.profile-info{
+  background-color: rgb(243, 235, 235);
+}
+.favorite-foods {
+   
+   margin:10px 10px;
+   padding:0px;
+   display:inline-block;
+   border-radius:5px;
+   border:1px solid #2f82ff;
+   background-color:lightblue;
+}
+.favorite-foods img{
+  
+  width:17px;
+  height:15px;
+  cursor:pointer;
+  padding:0px;
+  
+  
+}
+.favorite-foods label{
+  
+  width:100px;
+  height:15px;
+  cursor:pointer;
+  padding:3px;
+  border-left: 1px solid black;
+  
+  
+}
+title{
+  width:30px;
+}
+#advertise{
+ 
+  cursor:pointer;
+  
+ 
+}
+/*for media queries responsive design*/
+
+@media  only screen and (max-width:600px){
+  .logo-navbar{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+  }
+  header{
+    height:120px;
+    width:100%;
+  }
+  .logos{
+    height:30px;
+    width:100%;
+  
+      }
+  .menu  {
+    width:100%;
+    padding:25px 0px 30px 0px;
+   
+  }
+ 
+  #feature-image{
+    display:flex;
+    width:auto;
+    height:50%;
+    flex-flow: row wrap;
+  }
+  #feature-image-div {
+    margin:0 auto;
+    text-align: center;
+  }
+  #feature-image-div h1{
+    font-size:1em;
+  }
+  .container{
+    display:flex;
+    width:100%;
+    flex-flow: row wrap;
+    
+  }
+ 
+  .heading{
+    margin:auto;
+  }
+  .heading-text{
+    font-size:1em;
+  }
+  .wrapper{
+    display:flex;
+    width:100%;
+    flex-flow: row wrap;
+    
+  }
+ 
+  .how-in-img  img {
+   
+    height:100%;
+    width:300%;
+  }
+  .how-in-txt {
+    display:block;
+    width:auto;
+  }
+   a.read-btn {
+    display:block;
+    font-size:auto;
+    text-align: center;
+  }
+  .float-wrapper{
+    display:flex;
+    width:100%;
+    flex-flow: row wrap;
+  }
+  .restaurant {
+    display:block;
+    width:70%;
+    margin:auto;
+  }
+  .restaurant img {
+    
+    max-width:90%;
+    
+  }
+ .wrapper-findus {
+   padding:4%;
+ }
+  .wrapper h3, .wrapper p{
+    margin:auto;
+    max-width:80%;  
+  }
+  .inp-grp input{
+     display:inline-block;
+     max-width:60%;
+     margin:0 0;
+  }
+  .sitemap{
+    display:block;
+    width:100%;
+    margin:auto 30%;
+    
+   
+  }
+ 
+ 
+  .first-lastName-colors-div{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    
+   
+  }                     
+  
+  .colors-div {
+    height:70px;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;  
+  }
+  .colors-div img{
+    margin:1% auto;
+    width: 18px;
+    height: 18px;
+  }
+ 
+  .first-lastName-div{
+    width:240px;
+    float:left;
+
+   }
+ 
+  
+
+  
+  .profile-pic-div{
+      display:flex;
+      flex-flow:  row wrap;
+      width:100%;
+  }
+ 
+  #upload {
+   
+    left:40%;
+    right:42%;
+    width:15%;
+    padding:2.2%;
+    position:absolute;
+  }
+  .profile-pic-div-inside  {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+  }
+  
+  .picProfile-div-headers{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+  }
+    
+   
+  
+  #profile-image{
+    display:block;
+    width:auto;
+    margin:auto;
+  }
+
+
+
+
+  .profile-info{
+    display:flex;
+    flex-flow:  row wrap;
+    width:100%;
+  }
+  .profile-fields{
+    display:block;
+    width:90%;
+  }
+  .profile-fields input{
+    display:block;
+    width:100%;
+    margin:auto;
+
+  }
+ 
+  
+  .heading{
+      width:100%;
+  }
+   .form-group input {
+    display:block;
+    width:auto;
+  
+    
+  }
+  .heading h3 {
+    font-size:1em;
+    
+  }
+  .r-input  input {
+    display:block;
+    width:200%;
+  }
+  input.rinp-btn {
+    background-color: black;
+    color:white;
+    display:block;
+    width:100%;
+    text-align: center;
+  }
+ 
+}
+@media  only screen and (min-width:600px) and  (max-width:800px){
+  
+  .logo-navbar{
+
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    
+  }
+   .logos{
+    width:30%;
+   
+  
+      }
+  .menu {
+    width:65%;
+    text-align: right;
+  } 
+  #feature-image{
+    display:flex;
+    width:100%;
+    height:70%;
+    flex-flow: row wrap;
+  }
+  #feature-image-div {
+    margin: 0 auto;
+    
+    text-align: center;
+    
+  }
+  #feature-image-div h1{
+    font-size:1.5em;
+  }
+  .float-wrapper{
+    width:100%;
+     display:flex;
+     flex-flow:  wrap;
+  }
+ .container{
+   display:flex;
+   width:100%;
+   flex-flow: row wrap;
+ }
+ .heading{
+   margin-left:30%;
+ }
+  .heading-text{
+    font-size:1.5em;
+  }
+  
+ 
+  .how-in-img  img {
+   
+    height:80%;
+    width:100%;
+    
+  }
+  .restaurant img {
+    width:80%;
+  }
+
+  .sitemap{
+    display: inline-block;
+    width:15%;
+    margin:auto 6%;
+    
+  }
+ 
+  .first-lastName-colors-div{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    
+   
+  }                     
+  
+  .colors-div {
+    height:70px;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;  
+  }
+  .colors-div img{
+    margin:1% auto;
+    width: 18px;
+    height: 18px;
+  }
+ 
+  .first-lastName-div{
+    width:240px;
+    float:left;
+
+   }
+   
+   
+   #profile-pic-div{
+    display:flex;
+    flex-flow:  row wrap;
+    width:100%;
+   }
+   
+   .profile-pic-div {
+    width:30%;
+    float:right;
+    position:relative;
+    
+}
+
+#upload {
+  
+  top:25%;
+  min-width:25%;
+  margin:0 auto;
+  position:absolute;
+  
+}
+.profile-pic-div-inside img  {
+  margin:auto 15% auto 20%;
+ 
+}
+
+.picProfile-div-headers{
+  width:30%;
+ 
+  text-align: center;
+  margin:auto;
+
+}
+  
+ 
+
+#profile-image{
+  display:inline-block;
+  width:auto;
+
+}
+
+
+
+
+.profile-info{
+  
+  display:inline-block;
+  width:60%;
+}
+
+.profile-fields input{
+  display:inline-block;
+  width:90%;
+  margin:auto;
+
+}
+
+
+.container{
+  display:flex;
+  width:100%;
+  flex-flow: row wrap;
+  
+}
+
+.heading{
+  width:100%;
+  margin:0;
+  
+}
+
+.heading h3 {
+  font-size:1.5em;
+  }
+  
+
+
+.r-input  input {
+display:block;
+width:250%;
+}
+input.rinp-btn {
+background-color: black;
+color:white;
+display:block;
+width:30%;
+text-align: center;
+}
+}
+@media  only screen and (min-width:800px){
+  .logo-navbar{
+    width:100%;
+    display:flex;
+    flex-flow: row wrap;
+    
+  }
+   .logos{
+    width:30%;
+   
+    
+      }
+  .menu {
+    width:65%;
+    
+    text-align: right;
+  } 
+ 
+
+   
+  #feature-image{
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-flow: row wrap;
+  }
+  #feature-image-div {
+   
+    margin: 0 auto;
+    
+    text-align: center;
+     
+  }
+  #feature-image-div h1{
+    font-size:2.5em;
+    
+  }
+  .container{
+    display:flex;
+    width:100%;
+    flex-flow: wrap;
+  }
+  
+  
+  .heading-text{
+    font-size: 2em;
+  }
+  .how-in-img img{
+    display:inline-block;
+    width:100%;
+    height:30%;
+  }
+  .how-in-txt {
+    display:inline-block;
+  }
+  .float-wrapper{
+    display:inline-block;
+  }
+  .restaurant img {
+    display:inline-block;
+    width:60%;
+    height:80%;
+    
+  }
+
+  .wrapper{
+    display:block;
+    width:auto;
+  }
+ 
+  .sitemap{
+    display: inline-block;
+    width:15%;
+    margin:auto 6%;
+    
+  }
+  
+ 
+
+
+  .first-lastName-colors-div{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    
+   
+  }                     
+  
+  .colors-div {
+    height:70px;
+    margin-top:20px;
+    margin-left:10px;
+    float:left;  
+  }
+  .colors-div img{
+    marginr:1% auto;
+    width: 18px;
+    height: 18px;
+    
+  }
+ 
+  .first-lastName-div{
+    width:240px;
+    float:left;
+
+   }
+   
+   
+   #profile-pic-div{
+    display:flex;
+    flex-flow:  row wrap;
+    width:100%;
+   }
+   
+   .profile-pic-div{
+    width:30%;
+    float:right;
+    
+}
+
+#upload  {
+  position:absolute;
+  top:50%;
+  left:22%;
+  righth:40%;
+  min-width:20%;
+  margin:0 auto;
+}
+.profile-pic-div-inside  {
+  width:165px;
+  marginj:auto 20% auto 30%;
+  margin: auto;
+  padding:0;
+  position:relative;
+
+ background-size: cover;
+}
+
+.picProfile-div-headers{
+  width:40%;
+   
+  text-align: center;
+  margin:auto;
+
+}
+  
+ 
+
+#profile-image{
+  display:inline-block;
+  width:auto;
+
+}
+
+
+
+
+.profile-info{
+  
+  display:inline-block;
+  width:60%;
+  
+  
+ 
+}
+
+.profile-fields input{
+  display:inline-block;
+  width:25%;
+  margin:auto;
+
+}
+  
+
+
+  .heading{
+    width:100%;
+  }
+  .width-60{
+    
+    display: block;
+    
+  }
+   
+  .r-input , .width-60 p,.width-60 h5  {
+    display:block;
+    width:70%;
+    margin:0px 0% 0px 20%;
+    left:20%;
+    right:20%;
+
+  }
+  .form-group-rinp-btn{
+   
+    width:100%;
+    margin:0px 0% 0px 20%;
+    left:20%;
+    right:20%;
+  }
+   input.rinp-btn {
+    background-color: black;
+    color:white;
+  }
+
+}

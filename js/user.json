@@ -1,0 +1,17 @@
+ 
+ {
+   
+   "id":"1000",
+    "firstName":"aissa",
+    "lastName":"zouhayr",
+    "email":"zouhayrjerada@hotmail.com",
+    "phoneNumber":"3478377278",
+    "address1":"4 conevnt ave",
+    "address2":"44 event boulevard",
+    "favoriteFoods":["fish", "vegetables"],
+    "state":"New York",
+    "city": "NYC",
+    "age": "22",
+    "zipcode":"20000"
+}
+

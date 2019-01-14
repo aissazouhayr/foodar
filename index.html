@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foodar Sample Application</title>
+	<meta charset="UTF-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Aguafina+Script' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+
+</head>
+<body>
+	<section>
+		<div id="advertise"></div>	
+    </section>
+	<section >
+			
+			<div >	
+				<form class="form-group" id="login-form"  >
+					<p> name = aissa   password= 1234./qw </p> <!-- login info -->
+					<input  type="text" placeholder="username" name="username" >
+					<input  type="password" placeholder="password" name="password" >
+					<input type="submit" value="Login" >
+					
+				</form>
+				
+			</div>
+		
+	</section>
+	<section>
+	<header >
+			
+		<div class="logo-navbar" > 
+							
+			<div class="logos" >
+						
+				<a href="index.html"><img  src="images/logo.png" /></a>
+			</div>
+			<div class="menu">
+				<!--<nav >-->
+					<ul>
+						<li><a id="sign-in" href="#" title="click here to login to new features. Password
+						                                     must of length 8 with at least 
+													        one letter and one special character">
+							Sign-in 
+					<span href="#" class="new" >
+						 New</span></a></li>
+						<li> / </li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				<!--</nav> -->
+		    </div>	
+	   </div>
+	</header>
+	</section>
+	
+	<section id="feature-image-div">
+		
+	</section>
+	  
+	<section id="order" class="container">
+		<div class="heading">
+			<h3 class="heading-text">How it works</h3>
+			<div class="underline"></div>
+		</div>
+		<div class="wrapper">
+			<div class="how-in-img" >
+				<img src="images/menu.jpg"  />  
+			</div>
+			<div class="how-in-txt" >
+				<p><span class="bold-sp">The process is simple.</span><span class="mild-sp">We deliver whatever food you order from our partner restaurants. We provide an experience to our patrons with utmost courtesy and hospitality. Try out Foodar today!</span></p>
+				<ol style="margin-top:20px;">
+					<li>Order your food</li>
+					<li>Find a driver</li>
+					<li>Place pickup request</li>
+				</ol>
+				<a href="about.html" class="read-btn">Read More</a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	
+	<section id="cards" class="container">
+		<div class="heading">
+			<h3 class="heading-text">Feature Restaurants</h3>
+			<div class="underline"></div>
+		</div>
+		
+		<div class="float-wrapper">
+			<div class="restaurant">
+				<img src='images/fish.jpg' alt='' title='' />
+				<h3>Fish & Chips Gallore!</h3>
+				<p>Since 1968, Fish & Chips Gallore! has served the bay area with its palatable array of fried fish
+					and sailor's choice dessert.</p><p>Order today and recieve 15% your total meal and we'll throw in
+					our famous hush puppies as a thank you.</p>
+				
+			</div>
+			<div class="restaurant">
+				<img src='images/burger.jpg' alt='' title='Bubba Joes Burgers' />
+				<h3>Bubba Joe's</h3>
+				<p>When you actually, really desire a burger, you order from Bubba Joe's. Unlike the fast food business, we	
+					eat our own food and love it.</p><p>Order 2 burgers and get a small fry on us today.</p>
+			</div>
+			<div class="restaurant">
+				<img src='images/dessert.jpg' alt='' title='' />
+				<h3>Awww Yeah Desserts</h3>
+				<p>Welcome to your favorite part of dinner, lunch, breakfast, brunch, any meal. We know you don't need
+					encouragement from us to eat our desserts. Look at the picture. You know you want it.</p><p>Just for 
+					you, we'll knock off 10% to make your wallet feel good too.</p>
+			</div>
+		</div>
+			
+		<div class="clear"></div>
+	</section>
+	
+	<section id="yourCity" class="findus">
+		<div class="wrapper wrapper-findus ">
+			<h3>Find the nearest city</h3>
+			<p>Fill out the form below with your zip code of where you live.</p>
+			<div class="inp-grp" >
+				<input id="cityZip" type="number" class="inp-wd"/>
+				<input id="cityChecker" type="submit" value="Go" />
+				<div id="cityCheck"></div>
+			</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div  id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h3>Site Map</h3>
+				</div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="register.html">Register</a></li>
+					<li><a href="about.html">How it All Works</a></li>
+				</ul>
+			</div>
+			<div  class="sitemap" class="foot-menu">
+				<div class="foot-title">
+					<h3>Legal</h3>
+				</div>
+				<ul>
+					<li>Privacy Policy</li>
+					<li>Terms & Conditions</li>
+				</ul>
+			</div>
+            <div  class="sitemap" >
+				<div class="foot-title">
+					<h3>Food is Life :)</h3>
+				</div>
+			</div>
+           <div class="clear"></div>
+		</div>
+
+		<section class="copy"><p>&copy; 2018. All rights reserved. </p></section>
+	</footer>
+	
+    <script src="js/script.js"></script>  
+	<script src="js/authentication.js"></script>
+	
+	
+</body>
+</html>
